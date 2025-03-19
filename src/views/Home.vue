@@ -7,17 +7,26 @@ import Team from "../views/Team.vue";
 <template>
   <div class="scroll-smooth">
     <!-- Dashboard Section -->
-    <section id="dashboard" class="min-h-screen flex flex-col justify-center items-center">
+    <section
+      id="dashboard"
+      class="min-h-screen flex flex-col justify-center items-center"
+    >
       <Dashboard />
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="min-h-screen flex flex-col justify-center items-center">
+    <section
+      id="projects"
+      class="min-h-screen flex flex-col justify-center items-center"
+    >
       <Projects />
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="min-h-screen flex flex-col justify-center items-center">
+    <section
+      id="team"
+      class="min-h-screen flex flex-col justify-center items-center"
+    >
       <Team />
     </section>
   </div>
