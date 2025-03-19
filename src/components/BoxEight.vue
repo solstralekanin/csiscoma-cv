@@ -2,8 +2,8 @@
 
 <template>
   <div
-    class="relative border border-gray-200 h-full w-full rounded-xl bg-white shadow-md dark:bg-zinc-900 dark:shadow-lg"
+    class="relative p-2 border h-auto w-full rounded-2xl shadow-lg transition-colors duration-300 bg-white border-gray-200"
   >
-    <p class="m-2 text-center">Lorem ipsum dolor sit amet.</p>
+    <p class="text-center">Lorem ipsum dolor sit amet.</p>
   </div>
 </template>
