@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import { 
-  EnvelopeIcon, 
-  PhoneIcon, 
-  BuildingOffice2Icon 
+import {
+  EnvelopeIcon,
+  PhoneIcon,
+  BuildingOffice2Icon,
 } from "@heroicons/vue/24/outline";
 import WelcomeGlitch from "../components/WelcomeGlitch.vue";
 </script>
@@ -62,8 +62,7 @@ import WelcomeGlitch from "../components/WelcomeGlitch.vue";
 
       <!-- Middle column: Profile info -->
       <div
-        class="col-span-7 md:col-span-6 rounded-xl p-4 border border-white/20 shadow-lg 
-               transition hover:shadow-[0_0_8px_rgba(255,0,255,0.7)]"
+        class="col-span-7 md:col-span-6 rounded-xl p-4 border border-white/20 shadow-lg transition hover:shadow-[0_0_8px_rgba(255,0,255,0.7)]"
       >
         <div class="flex flex-col space-y-3">
           <div class="flex items-center gap-4">
@@ -118,8 +117,7 @@ import WelcomeGlitch from "../components/WelcomeGlitch.vue";
 
       <!-- Right column: logos -->
       <div
-        class="col-span-1 md:col-span-2 row-span-5 border border-white/20 rounded-xl p-4
-               flex items-center justify-center shadow-lg transition hover:shadow-[0_0_8px_rgba(0,255,255,0.7)]"
+        class="col-span-1 md:col-span-2 row-span-5 border border-white/20 rounded-xl p-4 flex items-center justify-center shadow-lg transition hover:shadow-[0_0_8px_rgba(0,255,255,0.7)]"
       >
         <div class="grid grid-cols-1 gap-6 place-items-center">
           <div class="neon-icon">
@@ -190,8 +188,7 @@ import WelcomeGlitch from "../components/WelcomeGlitch.vue";
 
       <!-- Summary / Bio section -->
       <div
-        class="md:col-span-10 border border-white/20 rounded-xl p-4 shadow-lg 
-               transition hover:shadow-[0_0_8px_rgba(148,0,211,0.7)]"
+        class="md:col-span-10 border border-white/20 rounded-xl p-4 shadow-lg transition hover:shadow-[0_0_8px_rgba(148,0,211,0.7)]"
       >
         <p class="text-sm md:text-base">
           Builder who expertly bridges design and development, praised for
@@ -205,8 +202,7 @@ import WelcomeGlitch from "../components/WelcomeGlitch.vue";
 
       <!-- Skills section -->
       <div
-        class="md:col-span-10 border border-white/20 rounded-xl p-4 flex items-center shadow-lg 
-               transition hover:shadow-[0_0_8px_rgba(57,255,20,0.7)]"
+        class="md:col-span-10 border border-white/20 rounded-xl p-4 flex items-center shadow-lg transition hover:shadow-[0_0_8px_rgba(57,255,20,0.7)]"
       >
         <div class="flex flex-wrap gap-2 text-sm">
           <span class="border border-white/20 px-3 py-1 rounded-full">
@@ -232,8 +228,7 @@ import WelcomeGlitch from "../components/WelcomeGlitch.vue";
 
       <!-- Experience section -->
       <div
-        class="col-span-11 md:col-span-5 border border-white/20 rounded-xl p-4 shadow-lg 
-               transition hover:shadow-[0_0_8px_rgba(255,111,0,0.7)]"
+        class="col-span-11 md:col-span-5 border border-white/20 rounded-xl p-4 shadow-lg transition hover:shadow-[0_0_8px_rgba(255,111,0,0.7)]"
       >
         <div class="flex flex-col space-y-2 text-sm md:text-base">
           <div class="flex w-full justify-between">
