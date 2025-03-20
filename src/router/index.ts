@@ -1,8 +1,9 @@
 // @ts-ignore
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "../views/Home.vue"; // Single page containing all sections
+//import Home from "../views/Home.vue";
+import TestOne from "../views/TestOne.vue";
 
-const routes = [{ path: "/", component: Home }];
+const routes = [{ path: "/", component: TestOne }];
 
 const router = createRouter({
   history: createWebHistory(),
